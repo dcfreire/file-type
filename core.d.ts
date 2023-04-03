@@ -145,7 +145,8 @@ export type FileExtension =
 	| 'pst'
 	| 'dwg'
 	| 'parquet'
-	| 'ace';
+	| 'ace'
+	| 'cpio';
 
 export type MimeType =
 	| 'image/jpeg'
@@ -286,7 +287,8 @@ export type MimeType =
 	| 'application/vnd.ms-outlook'
 	| 'image/vnd.dwg'
 	| 'application/x-parquet'
-	| 'application/x-ace-compressed';
+	| 'application/x-ace-compressed'
+	| 'application/x-cpio';
 
 export type FileTypeResult = {
 	/**

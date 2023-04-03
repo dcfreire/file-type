@@ -143,6 +143,7 @@ export const extensions = [
 	'dwg',
 	'parquet',
 	'ace',
+	'cpio',
 ];
 
 export const mimeTypes = [
@@ -285,4 +286,5 @@ export const mimeTypes = [
 	'image/vnd.dwg',
 	'application/x-parquet',
 	'application/x-ace-compressed',
+	'application/x-cpio',
 ];
