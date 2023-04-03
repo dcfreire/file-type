@@ -144,6 +144,7 @@ export const extensions = [
 	'parquet',
 	'ace',
 	'cpio',
+	'class',
 ];
 
 export const mimeTypes = [
@@ -287,4 +288,5 @@ export const mimeTypes = [
 	'application/x-parquet',
 	'application/x-ace-compressed',
 	'application/x-cpio',
+	'application/java-vm',
 ];

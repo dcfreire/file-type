@@ -146,7 +146,8 @@ export type FileExtension =
 	| 'dwg'
 	| 'parquet'
 	| 'ace'
-	| 'cpio';
+	| 'cpio'
+	| 'class';
 
 export type MimeType =
 	| 'image/jpeg'
@@ -288,7 +289,8 @@ export type MimeType =
 	| 'image/vnd.dwg'
 	| 'application/x-parquet'
 	| 'application/x-ace-compressed'
-	| 'application/x-cpio';
+	| 'application/x-cpio'
+	| 'application/java-vm';
 
 export type FileTypeResult = {
 	/**

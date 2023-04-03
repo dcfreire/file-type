@@ -199,7 +199,8 @@
 		"dwg",
 		"parquet",
 		"ace",
-		"cpio"
+		"cpio",
+		"class"
 	],
 	"dependencies": {
 		"readable-web-to-node-stream": "^3.0.2",
