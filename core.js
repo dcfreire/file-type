@@ -149,13 +149,6 @@ class FileTypeParser {
 			};
 		}
 
-		if (this.check([0xC7, 0x71])) {
-			return {
-				ext: 'cpio',
-				mime: 'application/x-cpio',
-			};
-		}
-
 		// -- 3-byte signatures --
 
 		if (this.check([0xEF, 0xBB, 0xBF])) { // UTF-8-BOM

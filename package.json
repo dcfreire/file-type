@@ -200,7 +200,8 @@
 		"parquet",
 		"ace",
 		"cpio",
-		"class"
+		"class",
+		"arj"
 	],
 	"dependencies": {
 		"readable-web-to-node-stream": "^3.0.2",
